@@ -1,0 +1,18 @@
+2014-04-02 00:20:09,282|TlosServer|****************************************************************
+2014-04-02 00:20:09,282|TlosServer|***   Likya Bilgi Teknolojileri ve ‹letiﬂim Hiz. Ltd. ﬁti.   ***
+2014-04-02 00:20:09,282|TlosServer|***         Tlos Lite ‹ﬂlem planlama uygulamas› Sürüm V1.8.1 ***
+2014-04-02 00:20:09,283|TlosServer|***               (c) 2013 Her Hakk› Sakl›d›r                ***
+2014-04-02 00:20:09,283|TlosServer|****************************************************************
+2014-04-02 00:20:09,284|TlosServer|Uygulama dizini ve ad› : => /Users/serkan/programlar/dev/workspace/TlosLite_V1.8.1_OS/dist/tloslite-os-orj-1.8.1.jar
+2014-04-02 00:20:09,284|TlosServer|Alt-üst Limitler Hatal› Tan›mlanm›ﬂ: (Alt:3)(üst:2)
+2014-04-02 00:20:09,285|TlosServer|Düzeltilen de€erleri kullan›lacak : (Alt:3)(üst:4)
+2014-04-02 00:20:09,285|TlosServer|Senaryo Ad› : Test
+2014-04-02 00:20:09,286|TlosServer|Senaryo Dosyas› : senaryoBilgileri.xml
+2014-04-02 00:20:09,286|TlosServer|Log Dosyas› : TlosEkran.log
+2014-04-02 00:20:09,295|TlosServer|Çal›ﬂma Periyodu : 01 sn
+2014-04-02 00:20:09,295|TlosServer|Yönetim konsolu haberleﬂme portu : 3001
+2014-04-02 00:20:09,295|TlosServer|Web arabirimi sunucu adresi : 0.0.0.0
+2014-04-02 00:20:09,296|TlosServer|Web arabirimi eriﬂim portu : 3000
+2014-04-02 00:20:09,303|TlosServer|*************************************************************
+2014-04-02 00:20:09,305|TlosServer|Senaryo bilgileri yükleniyor...
+2014-04-02 00:20:09,352|TlosServer|Tan›ml› iﬂlerde verilen bitiﬂ zaman›ndaki tarih k›sm› dikkate al›nmaz sadece saat k›sm› dikkate al›n›r.

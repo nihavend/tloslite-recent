@@ -1,0 +1,318 @@
+02 Nis 2014 00:20:09,251 DEBUG TlosServer:302 - <!--
+02 Nis 2014 00:20:09,253 DEBUG TlosServer:302 -   Copyright 2014 Likya Teknoloji
+02 Nis 2014 00:20:09,254 DEBUG TlosServer:302 -   
+02 Nis 2014 00:20:09,254 DEBUG TlosServer:302 -   Licensed under the Apache License, Version 2.0 (the "License");
+02 Nis 2014 00:20:09,254 DEBUG TlosServer:302 -   you may not use this file except in compliance with the License.
+02 Nis 2014 00:20:09,255 DEBUG TlosServer:302 -   You may obtain a copy of the License at
+02 Nis 2014 00:20:09,255 DEBUG TlosServer:302 -   
+02 Nis 2014 00:20:09,255 DEBUG TlosServer:302 -     http://www.apache.org/licenses/LICENSE-2.0
+02 Nis 2014 00:20:09,256 DEBUG TlosServer:302 -   
+02 Nis 2014 00:20:09,256 DEBUG TlosServer:302 -   Unless required by applicable law or agreed to in writing, software
+02 Nis 2014 00:20:09,256 DEBUG TlosServer:302 -   distributed under the License is distributed on an "AS IS" BASIS,
+02 Nis 2014 00:20:09,257 DEBUG TlosServer:302 -   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+02 Nis 2014 00:20:09,257 DEBUG TlosServer:302 -   See the License for the specific language governing permissions and
+02 Nis 2014 00:20:09,257 DEBUG TlosServer:302 -   limitations under the License.
+02 Nis 2014 00:20:09,258 DEBUG TlosServer:302 - -->
+02 Nis 2014 00:20:09,258 DEBUG TlosServer:302 - <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+02 Nis 2014 00:20:09,258 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,259 DEBUG TlosServer:302 - <properties>
+02 Nis 2014 00:20:09,259 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,259 DEBUG TlosServer:302 - <comment>
+02 Nis 2014 00:20:09,260 DEBUG TlosServer:302 - ispersistent : program›n normal olmayan bir ﬂekilde sonlanmas› durumunda, 
+02 Nis 2014 00:20:09,260 DEBUG TlosServer:302 - 	son halini diskten yükleyip tekrar baﬂlayabiliri. 
+02 Nis 2014 00:20:09,260 DEBUG TlosServer:302 - usemail : mail sistemi kullan/kullanma, bu parametre false olur ise,
+02 Nis 2014 00:20:09,261 DEBUG TlosServer:302 - 	di€er e-posta parametreleri okunmaz.
+02 Nis 2014 00:20:09,261 DEBUG TlosServer:302 - Sistem bilgileri burada olacak
+02 Nis 2014 00:20:09,261 DEBUG TlosServer:302 - statusListForMail : 
+02 Nis 2014 00:20:09,262 DEBUG TlosServer:302 - emaildestination : Sistem raporlar›n›n gönderilece€i e-mail adresi
+02 Nis 2014 00:20:09,262 DEBUG TlosServer:302 - emailusername : kullan›c› ad›
+02 Nis 2014 00:20:09,262 DEBUG TlosServer:302 - emailpassword : ﬂifre
+02 Nis 2014 00:20:09,262 DEBUG TlosServer:302 - smptserver : mail server adresi
+02 Nis 2014 00:20:09,263 DEBUG TlosServer:302 - scenario : Senaryo bilgilerinin al›nca€› dosya
+02 Nis 2014 00:20:09,263 DEBUG TlosServer:302 - logfile : log dosyas›
+02 Nis 2014 00:20:09,263 DEBUG TlosServer:302 - schedulerFrequency : Scheduler'›n çal›ﬂma s›k›l›€› (sn)
+02 Nis 2014 00:20:09,264 DEBUG TlosServer:302 - schedulerHigherThreshold : 
+02 Nis 2014 00:20:09,264 DEBUG TlosServer:302 - schedulerLowerThreshold :
+02 Nis 2014 00:20:09,264 DEBUG TlosServer:302 - managementPort : yönetim konsolu haberleﬂme portu
+02 Nis 2014 00:20:09,265 DEBUG TlosServer:302 - managementBufferSize : yönetim konsolu buffer boyu
+02 Nis 2014 00:20:09,265 DEBUG TlosServer:302 - normalize(opsiyonel, varsay›lan : false) : Günlük öteleme parametresi, bu parametre true olur ise, tlos çal›ﬂmaya baﬂad›€›nda ya da 
+02 Nis 2014 00:20:09,265 DEBUG TlosServer:302 - 			kuyru€u yeninde baﬂlatmak istedi€inde, kuyrukta bir tarama yapacak, ve eski tarihli iﬂleri bir sonraki çal›ﬂma zaman›na öteleyecek.
+02 Nis 2014 00:20:09,266 DEBUG TlosServer:302 - scheduledDays(opsiyonel, varsay›lan : 1,2,3,4,5,6,7) : Çal›ﬂma günleri, Tlos burada listelenen günlerde çal›ﬂacak, onun d›ﬂ›ndaki günlerde çal›ﬂmayacak.
+02 Nis 2014 00:20:09,266 DEBUG TlosServer:302 - 			(Pazar[1]-Cumartesi[7])
+02 Nis 2014 00:20:09,266 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,267 DEBUG TlosServer:302 - </comment>
+02 Nis 2014 00:20:09,267 DEBUG TlosServer:302 - <entry key="version">V1.8.1</entry>
+02 Nis 2014 00:20:09,267 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,268 DEBUG TlosServer:302 - <entry key="scenarioName">Test</entry>
+02 Nis 2014 00:20:09,268 DEBUG TlosServer:302 - <entry key="scenarioFile">senaryoBilgileri.xml</entry>
+02 Nis 2014 00:20:09,268 DEBUG TlosServer:302 - <entry key="normalize">true</entry>
+02 Nis 2014 00:20:09,268 DEBUG TlosServer:302 - <entry key="ispersistent">false</entry>
+02 Nis 2014 00:20:09,269 DEBUG TlosServer:302 - <entry key="schedulerFrequency">1</entry>
+02 Nis 2014 00:20:09,269 DEBUG TlosServer:302 - <entry key="scheduledDays">1,2,3,4,5,6,7</entry>
+02 Nis 2014 00:20:09,269 DEBUG TlosServer:302 - <entry key="schedulerHigherThreshold">2</entry>
+02 Nis 2014 00:20:09,270 DEBUG TlosServer:302 - <entry key="schedulerLowerThreshold">3</entry>
+02 Nis 2014 00:20:09,270 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,270 DEBUG TlosServer:302 - <entry key="usemail">false</entry>
+02 Nis 2014 00:20:09,271 DEBUG TlosServer:302 - <!-- entry key="statusListForMail">READY,WORKING,WAITING,SUCCESS,FAIL,TIMEOUT</entry -->
+02 Nis 2014 00:20:09,271 DEBUG TlosServer:302 - <entry key="statusListForMail">5</entry>
+02 Nis 2014 00:20:09,271 DEBUG TlosServer:302 - <entry key="emaildestinationList">serkan.tas@likyateknoloji.com</entry>
+02 Nis 2014 00:20:09,272 DEBUG TlosServer:302 - <entry key="useencryption">false</entry>
+02 Nis 2014 00:20:09,272 DEBUG TlosServer:302 - <entry key="emailusername">serkan.tas@likyateknoloji.com</entry>
+02 Nis 2014 00:20:09,272 DEBUG TlosServer:302 - <entry key="emailpassword">serkandummy1</entry>
+02 Nis 2014 00:20:09,273 DEBUG TlosServer:302 - <entry key="smtpserver">mail.likyateknoloji.com</entry>
+02 Nis 2014 00:20:09,273 DEBUG TlosServer:302 - <entry key="smtpport">587</entry>
+02 Nis 2014 00:20:09,274 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,274 DEBUG TlosServer:302 - <!-- SMS kullan›alacak ise aﬂa€›daki k›s›mlar doldurulmal› -->
+02 Nis 2014 00:20:09,274 DEBUG TlosServer:302 - <entry key="usesms">false</entry>
+02 Nis 2014 00:20:09,274 DEBUG TlosServer:302 - <entry key="smsclassname">VodafoneSMSHandler</entry>
+02 Nis 2014 00:20:09,275 DEBUG TlosServer:302 - <entry key="statusListForSMS">TIMEOUT</entry>
+02 Nis 2014 00:20:09,275 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,275 DEBUG TlosServer:302 - <entry key="logfile">TlosEkran.log</entry>
+02 Nis 2014 00:20:09,275 DEBUG TlosServer:302 - <!-- job loglar› ile ilgli ayarlar için aﬂa€›daki k›s›mlar doldurulmal› -->
+02 Nis 2014 00:20:09,276 DEBUG TlosServer:302 - <entry key="usejobnamesforlog">false</entry>
+02 Nis 2014 00:20:09,276 DEBUG TlosServer:302 - <entry key="addjobnamesforlog">.log</entry>
+02 Nis 2014 00:20:09,276 DEBUG TlosServer:302 - <!-- log dizinleri ile ilgli ayarlar için aﬂa€›daki k›s›mlar doldurulmal› -->
+02 Nis 2014 00:20:09,277 DEBUG TlosServer:302 - <entry key="usegloballogpath">false</entry>
+02 Nis 2014 00:20:09,277 DEBUG TlosServer:302 - <entry key="globallogpath">tlos_v1.8.0_test/logs</entry>
+02 Nis 2014 00:20:09,277 DEBUG TlosServer:302 - <entry key="logbuffersize">800</entry>
+02 Nis 2014 00:20:09,278 DEBUG TlosServer:302 - <entry key="logpagesize">20</entry>
+02 Nis 2014 00:20:09,278 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,278 DEBUG TlosServer:302 - <entry key="httpHostName">0.0.0.0</entry>
+02 Nis 2014 00:20:09,279 DEBUG TlosServer:302 - <entry key="httpAccessPort">3000</entry>
+02 Nis 2014 00:20:09,279 DEBUG TlosServer:302 - <entry key="useManagement">true</entry>
+02 Nis 2014 00:20:09,279 DEBUG TlosServer:302 - <entry key="managementPort">3001</entry>
+02 Nis 2014 00:20:09,280 DEBUG TlosServer:302 - <entry key="useJmxManagement">true</entry>
+02 Nis 2014 00:20:09,280 DEBUG TlosServer:302 - <entry key="jmxIp">0.0.0.0</entry>
+02 Nis 2014 00:20:09,280 DEBUG TlosServer:302 - <entry key="jmxPort">3002</entry>
+02 Nis 2014 00:20:09,280 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,280 DEBUG TlosServer:302 - </properties>
+02 Nis 2014 00:20:09,281 DEBUG TlosServer:335 - <!--
+  Copyright 2014 Likya Teknoloji
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<properties>
+
+<comment>
+ispersistent : program›n normal olmayan bir ﬂekilde sonlanmas› durumunda, 
+	son halini diskten yükleyip tekrar baﬂlayabiliri. 
+usemail : mail sistemi kullan/kullanma, bu parametre false olur ise,
+	di€er e-posta parametreleri okunmaz.
+Sistem bilgileri burada olacak
+statusListForMail : 
+emaildestination : Sistem raporlar›n›n gönderilece€i e-mail adresi
+emailusername : kullan›c› ad›
+emailpassword : ﬂifre
+smptserver : mail server adresi
+scenario : Senaryo bilgilerinin al›nca€› dosya
+logfile : log dosyas›
+schedulerFrequency : Scheduler'›n çal›ﬂma s›k›l›€› (sn)
+schedulerHigherThreshold : 
+schedulerLowerThreshold :
+managementPort : yönetim konsolu haberleﬂme portu
+managementBufferSize : yönetim konsolu buffer boyu
+normalize(opsiyonel, varsay›lan : false) : Günlük öteleme parametresi, bu parametre true olur ise, tlos çal›ﬂmaya baﬂad›€›nda ya da 
+			kuyru€u yeninde baﬂlatmak istedi€inde, kuyrukta bir tarama yapacak, ve eski tarihli iﬂleri bir sonraki çal›ﬂma zaman›na öteleyecek.
+scheduledDays(opsiyonel, varsay›lan : 1,2,3,4,5,6,7) : Çal›ﬂma günleri, Tlos burada listelenen günlerde çal›ﬂacak, onun d›ﬂ›ndaki günlerde çal›ﬂmayacak.
+			(Pazar[1]-Cumartesi[7])
+
+</comment>
+<entry key="version">V1.8.1</entry>
+
+<entry key="scenarioName">Test</entry>
+<entry key="scenarioFile">senaryoBilgileri.xml</entry>
+<entry key="normalize">true</entry>
+<entry key="ispersistent">false</entry>
+<entry key="schedulerFrequency">1</entry>
+<entry key="scheduledDays">1,2,3,4,5,6,7</entry>
+<entry key="schedulerHigherThreshold">2</entry>
+<entry key="schedulerLowerThreshold">3</entry>
+
+<entry key="usemail">false</entry>
+<!-- entry key="statusListForMail">READY,WORKING,WAITING,SUCCESS,FAIL,TIMEOUT</entry -->
+<entry key="statusListForMail">5</entry>
+<entry key="emaildestinationList">serkan.tas@likyateknoloji.com</entry>
+<entry key="useencryption">false</entry>
+<entry key="emailusername">serkan.tas@likyateknoloji.com</entry>
+<entry key="emailpassword">serkandummy1</entry>
+<entry key="smtpserver">mail.likyateknoloji.com</entry>
+<entry key="smtpport">587</entry>
+
+<!-- SMS kullan›alacak ise aﬂa€›daki k›s›mlar doldurulmal› -->
+<entry key="usesms">false</entry>
+<entry key="smsclassname">VodafoneSMSHandler</entry>
+<entry key="statusListForSMS">TIMEOUT</entry>
+
+<entry key="logfile">TlosEkran.log</entry>
+<!-- job loglar› ile ilgli ayarlar için aﬂa€›daki k›s›mlar doldurulmal› -->
+<entry key="usejobnamesforlog">false</entry>
+<entry key="addjobnamesforlog">.log</entry>
+<!-- log dizinleri ile ilgli ayarlar için aﬂa€›daki k›s›mlar doldurulmal› -->
+<entry key="usegloballogpath">false</entry>
+<entry key="globallogpath">tlos_v1.8.0_test/logs</entry>
+<entry key="logbuffersize">800</entry>
+<entry key="logpagesize">20</entry>
+
+<entry key="httpHostName">0.0.0.0</entry>
+<entry key="httpAccessPort">3000</entry>
+<entry key="useManagement">true</entry>
+<entry key="managementPort">3001</entry>
+<entry key="useJmxManagement">true</entry>
+<entry key="jmxIp">0.0.0.0</entry>
+<entry key="jmxPort">3002</entry>
+
+</properties>
+
+02 Nis 2014 00:20:09,282 DEBUG TlosServer:336 - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+02 Nis 2014 00:20:09,282  INFO TlosServer:61 - ****************************************************************
+02 Nis 2014 00:20:09,282  INFO TlosServer:62 - ***   Likya Bilgi Teknolojileri ve ‹letiﬂim Hiz. Ltd. ﬁti.   ***
+02 Nis 2014 00:20:09,282  INFO TlosServer:63 - ***         Tlos Lite ‹ﬂlem planlama uygulamas› Sürüm V1.8.1 ***
+02 Nis 2014 00:20:09,283  INFO TlosServer:64 - ***               (c) 2013 Her Hakk› Sakl›d›r                ***
+02 Nis 2014 00:20:09,283  INFO TlosServer:65 - ****************************************************************
+02 Nis 2014 00:20:09,284  INFO TlosServer:66 - Uygulama dizini ve ad› : => /Users/serkan/programlar/dev/workspace/TlosLite_V1.8.1_OS/dist/tloslite-os-orj-1.8.1.jar
+02 Nis 2014 00:20:09,284  INFO TlosServer:208 - Alt-üst Limitler Hatal› Tan›mlanm›ﬂ: (Alt:3)(üst:2)
+02 Nis 2014 00:20:09,285  INFO TlosServer:210 - Düzeltilen de€erleri kullan›lacak : (Alt:3)(üst:4)
+02 Nis 2014 00:20:09,285  INFO TlosServer:305 - Senaryo Ad› : Test
+02 Nis 2014 00:20:09,286  INFO TlosServer:307 - Senaryo Dosyas› : senaryoBilgileri.xml
+02 Nis 2014 00:20:09,286  INFO TlosServer:308 - Log Dosyas› : TlosEkran.log
+02 Nis 2014 00:20:09,295  INFO TlosServer:309 - Çal›ﬂma Periyodu : 01 sn
+02 Nis 2014 00:20:09,295  INFO TlosServer:311 - Yönetim konsolu haberleﬂme portu : 3001
+02 Nis 2014 00:20:09,295  INFO TlosServer:312 - Web arabirimi sunucu adresi : 0.0.0.0
+02 Nis 2014 00:20:09,296  INFO TlosServer:313 - Web arabirimi eriﬂim portu : 3000
+02 Nis 2014 00:20:09,303  INFO TlosServer:76 - *************************************************************
+02 Nis 2014 00:20:09,305  INFO TlosServer:77 - Senaryo bilgileri yükleniyor...
+02 Nis 2014 00:20:09,331 DEBUG TlosServer:302 - <!--
+02 Nis 2014 00:20:09,331 DEBUG TlosServer:302 -   Copyright 2014 Likya Teknoloji
+02 Nis 2014 00:20:09,331 DEBUG TlosServer:302 -   
+02 Nis 2014 00:20:09,332 DEBUG TlosServer:302 -   Licensed under the Apache License, Version 2.0 (the "License");
+02 Nis 2014 00:20:09,332 DEBUG TlosServer:302 -   you may not use this file except in compliance with the License.
+02 Nis 2014 00:20:09,332 DEBUG TlosServer:302 -   You may obtain a copy of the License at
+02 Nis 2014 00:20:09,332 DEBUG TlosServer:302 -   
+02 Nis 2014 00:20:09,332 DEBUG TlosServer:302 -     http://www.apache.org/licenses/LICENSE-2.0
+02 Nis 2014 00:20:09,333 DEBUG TlosServer:302 -   
+02 Nis 2014 00:20:09,333 DEBUG TlosServer:302 -   Unless required by applicable law or agreed to in writing, software
+02 Nis 2014 00:20:09,333 DEBUG TlosServer:302 -   distributed under the License is distributed on an "AS IS" BASIS,
+02 Nis 2014 00:20:09,333 DEBUG TlosServer:302 -   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+02 Nis 2014 00:20:09,334 DEBUG TlosServer:302 -   See the License for the specific language governing permissions and
+02 Nis 2014 00:20:09,334 DEBUG TlosServer:302 -   limitations under the License.
+02 Nis 2014 00:20:09,334 DEBUG TlosServer:302 - -->
+02 Nis 2014 00:20:09,334 DEBUG TlosServer:302 - <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+02 Nis 2014 00:20:09,334 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,335 DEBUG TlosServer:302 - <properties>
+02 Nis 2014 00:20:09,335 DEBUG TlosServer:302 - 
+02 Nis 2014 00:20:09,335 DEBUG TlosServer:302 - <comment>
+02 Nis 2014 00:20:09,335 DEBUG TlosServer:302 - <!-- 
+02 Nis 2014 00:20:09,336 DEBUG TlosServer:302 - Senaryo bilgilerini bulunduran dosya
+02 Nis 2014 00:20:09,336 DEBUG TlosServer:302 -         job ID
+02 Nis 2014 00:20:09,336 DEBUG TlosServer:302 -         	() parantez içinde instance say›s› verilebilir. Örnek job1(10)|5    => job1 den 10 iisntance aç, öncelikleri 5 olsun.
+02 Nis 2014 00:20:09,336 DEBUG TlosServer:302 -         	 | iﬂareti ile yan›na öncelik girilebilir. Örnek : <entry key="job1|5"> gibi.
+02 Nis 2014 00:20:09,336 DEBUG TlosServer:302 -         job group 
+02 Nis 2014 00:20:09,337 DEBUG TlosServer:302 -         	| iﬂareti ile yan›na birlikte çal›ﬂMAma grubu girilebilir. Örnek : BILLING|REPORTING gibi.
+02 Nis 2014 00:20:09,337 DEBUG TlosServer:302 -         	Bu durumda bu iﬂ e€er REPORTING grubundan baﬂka bir iﬂ çal›ﬂ›r durumda ise çal›ﬂmaz.
+02 Nis 2014 00:20:09,337 DEBUG TlosServer:302 - 		job command
+02 Nis 2014 00:20:09,337 DEBUG TlosServer:302 -         job type
+02 Nis 2014 00:20:09,338 DEBUG TlosServer:302 -         log_file_path
+02 Nis 2014 00:20:09,338 DEBUG TlosServer:302 -         dependencylist
+02 Nis 2014 00:20:09,339 DEBUG TlosServer:302 -         	Ba€›l›l›k tan›m›m yap›l›rken, joblar›n fail mi yoksa success tipinde mi ba€›ml› olacaklar› tan›m s›ras›nda belirlenebilir.
+02 Nis 2014 00:20:09,339 DEBUG TlosServer:302 -         	Örnek : 
+02 Nis 2014 00:20:09,342 DEBUG TlosServer:302 -         		job1(1) :success
+02 Nis 2014 00:20:09,343 DEBUG TlosServer:302 -         		job1(0)  :fail
+02 Nis 2014 00:20:09,343 DEBUG TlosServer:302 -         		job1(-) : success-fail both
+02 Nis 2014 00:20:09,343 DEBUG TlosServer:302 -         		Önemli Not : Bir job'a fail tipinde ba€lama yap›ld›€›nda, fail tipinde ba€lan›lan job otomatik olarak non-blocker yap›l›r
+02 Nis 2014 00:20:09,343 DEBUG TlosServer:302 -         	
+02 Nis 2014 00:20:09,343 DEBUG TlosServer:302 -         execution type : S : Standart : yan›na | ile ay›r›p (isblocker(true/false)) eklenebilir : bu iﬂi fail edince senaryo bloklans›n m› ?  default ya da verilmezse true olacak Di€er iﬂ türlerinde anlam› yok.
+02 Nis 2014 00:20:09,344 DEBUG TlosServer:302 -         				 M : Manuel
+02 Nis 2014 00:20:09,344 DEBUG TlosServer:302 -         				 DELAY(ms) : Tekrarl›
+02 Nis 2014 00:20:09,344 DEBUG TlosServer:302 -         				 
+02 Nis 2014 00:20:09,344 DEBUG TlosServer:302 -         start date/time (gg:aa:yyyy hh:mm:ss) veya (hh:mm:ss basladigi gunu kabul edip calisir)
+02 Nis 2014 00:20:09,345 DEBUG TlosServer:302 -         timeout(sn)
+02 Nis 2014 00:20:09,345 DEBUG TlosServer:302 -         autorestart
+02 Nis 2014 00:20:09,345 DEBUG TlosServer:302 -         	(true,false), 
+02 Nis 2014 00:20:09,345 DEBUG TlosServer:302 -         	true ise; 
+02 Nis 2014 00:20:09,345 DEBUG TlosServer:302 -         		iﬂ fail etti€inde;
+02 Nis 2014 00:20:09,346 DEBUG TlosServer:302 -         			| delay(ms) | count(say›) : e€er true ise ve baﬂka bilgi verilmezse ya da delay < 1000 ise veya say› < 1 ise; delay = 1000; say› = 1 kabul edilir
+02 Nis 2014 00:20:09,346 DEBUG TlosServer:302 -         			verilen say› kadar verilen aral›klarla tekrar çal›ﬂt›r›r.
+02 Nis 2014 00:20:09,346 DEBUG TlosServer:302 -         	false ise;
+02 Nis 2014 00:20:09,346 DEBUG TlosServer:302 -         		fail edince hiç bir ﬂey yapmaz
+02 Nis 2014 00:20:09,346 DEBUG TlosServer:302 -         bitis uyari kodu; Buraya listelenen ve | ile ayrilan kodlarla biten isler basarili sayilacak, e€er bu bilgi "yok" olarak set edilrise, hangi kodla biterse bitsin baﬂar›l› olacak.
+02 Nis 2014 00:20:09,347 DEBUG TlosServer:302 -         restartable (0,1) : Bu bilgi tekrarl› iﬂler için baﬂar›s›z da bitse devam et anlam›na gelir, di€er iﬂler için sadece bilgi amaçl›d›r.
+02 Nis 2014 00:20:09,347 DEBUG TlosServer:302 -         hata kelimesi (\null, HATA)
+02 Nis 2014 00:20:09,347 DEBUG TlosServer:302 - -->
+02 Nis 2014 00:20:09,347 DEBUG TlosServer:302 - </comment>
+02 Nis 2014 00:20:09,347 DEBUG TlosServer:302 - <entry key="version">V1.8.1</entry>
+02 Nis 2014 00:20:09,348 DEBUG TlosServer:302 - <entry key="job1">A,/Users/serkan/Desktop/tlosTest/job2.sh,system,tlos_v1.8.0_test/log1.log,yok,20,00:00:00-23:59:59,300,false,0,1,\null</entry>
+02 Nis 2014 00:20:09,348 DEBUG TlosServer:302 - </properties>
+02 Nis 2014 00:20:09,348 DEBUG TlosServer:335 - <!--
+  Copyright 2014 Likya Teknoloji
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<properties>
+
+<comment>
+<!-- 
+Senaryo bilgilerini bulunduran dosya
+        job ID
+        	() parantez içinde instance say›s› verilebilir. Örnek job1(10)|5    => job1 den 10 iisntance aç, öncelikleri 5 olsun.
+        	 | iﬂareti ile yan›na öncelik girilebilir. Örnek : <entry key="job1|5"> gibi.
+        job group 
+        	| iﬂareti ile yan›na birlikte çal›ﬂMAma grubu girilebilir. Örnek : BILLING|REPORTING gibi.
+        	Bu durumda bu iﬂ e€er REPORTING grubundan baﬂka bir iﬂ çal›ﬂ›r durumda ise çal›ﬂmaz.
+		job command
+        job type
+        log_file_path
+        dependencylist
+        	Ba€›l›l›k tan›m›m yap›l›rken, joblar›n fail mi yoksa success tipinde mi ba€›ml› olacaklar› tan›m s›ras›nda belirlenebilir.
+        	Örnek : 
+        		job1(1) :success
+        		job1(0)  :fail
+        		job1(-) : success-fail both
+        		Önemli Not : Bir job'a fail tipinde ba€lama yap›ld›€›nda, fail tipinde ba€lan›lan job otomatik olarak non-blocker yap›l›r
+        	
+        execution type : S : Standart : yan›na | ile ay›r›p (isblocker(true/false)) eklenebilir : bu iﬂi fail edince senaryo bloklans›n m› ?  default ya da verilmezse true olacak Di€er iﬂ türlerinde anlam› yok.
+        				 M : Manuel
+        				 DELAY(ms) : Tekrarl›
+        				 
+        start date/time (gg:aa:yyyy hh:mm:ss) veya (hh:mm:ss basladigi gunu kabul edip calisir)
+        timeout(sn)
+        autorestart
+        	(true,false), 
+        	true ise; 
+        		iﬂ fail etti€inde;
+        			| delay(ms) | count(say›) : e€er true ise ve baﬂka bilgi verilmezse ya da delay < 1000 ise veya say› < 1 ise; delay = 1000; say› = 1 kabul edilir
+        			verilen say› kadar verilen aral›klarla tekrar çal›ﬂt›r›r.
+        	false ise;
+        		fail edince hiç bir ﬂey yapmaz
+        bitis uyari kodu; Buraya listelenen ve | ile ayrilan kodlarla biten isler basarili sayilacak, e€er bu bilgi "yok" olarak set edilrise, hangi kodla biterse bitsin baﬂar›l› olacak.
+        restartable (0,1) : Bu bilgi tekrarl› iﬂler için baﬂar›s›z da bitse devam et anlam›na gelir, di€er iﬂler için sadece bilgi amaçl›d›r.
+        hata kelimesi (\null, HATA)
+-->
+</comment>
+<entry key="version">V1.8.1</entry>
+<entry key="job1">A,/Users/serkan/Desktop/tlosTest/job2.sh,system,tlos_v1.8.0_test/log1.log,yok,20,00:00:00-23:59:59,300,false,0,1,\null</entry>
+</properties>
+
+02 Nis 2014 00:20:09,348 DEBUG TlosServer:336 - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+02 Nis 2014 00:20:09,352  INFO TlosServer:140 - Tan›ml› iﬂlerde verilen bitiﬂ zaman›ndaki tarih k›sm› dikkate al›nmaz sadece saat k›sm› dikkate al›n›r.

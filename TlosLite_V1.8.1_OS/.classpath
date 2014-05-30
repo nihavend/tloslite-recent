@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/SharedLibs/winp/winp.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/TlosLite1.8.0.Libs"/>
+	<classpathentry kind="lib" path="/SharedLibs/oracle/ojdbc14.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TlosLiteModel_V1.8.1_OS"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
