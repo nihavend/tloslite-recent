@@ -13,16 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package com.likya.tlos.lite.model;
+package com.likya.tloslite.model;
 
 import java.io.Serializable;
 
-public class TlosStates implements Serializable {
+public class TlosUser implements Serializable {
+
+	private static final long serialVersionUID = 1746865779911010586L;
 	
-	private static final long serialVersionUID = -7260523213257887269L;
-	
-	public static final int STATE_STOP = 10;
-	public static final int STATE_SUSPENDED = 20;
-	public static final int STATE_WORKING = 40;
+	private String userName;
+    private String userPassword;
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserPassword() {
+        return userPassword;
+    }
+
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
+    }
 
 }

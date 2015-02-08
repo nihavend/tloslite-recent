@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package com.likya.tlos.lite.model;
+package com.likya.tloslite.model;
 
 import java.io.Serializable;
 
