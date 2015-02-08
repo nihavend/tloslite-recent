@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import com.likya.tlos.LocaleMessages;
-import com.likya.tlos.lite.model.DependencyInfo;
+import com.likya.tloslite.model.DependencyInfo;
 import com.likya.tlos.utils.DateUtils;
 import com.likya.tlos.utils.ObjectUtils;
 import com.likya.tlos.utils.loaders.ScenarioLoader;

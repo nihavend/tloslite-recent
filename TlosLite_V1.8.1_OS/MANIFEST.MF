@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.8.4
+Ant-Version: Apache Ant 1.9.2
 Created-By: 1.7.0_12-ea-b08 (Oracle Corporation)
 Main-Class: com.likya.tlos.Tlos
 Class-Path: lib/tloslite-model-os-1.8.1.jar lib/mailapi.jar lib/activa

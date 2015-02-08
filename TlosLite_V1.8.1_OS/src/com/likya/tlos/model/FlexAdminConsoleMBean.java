@@ -15,9 +15,9 @@
  ******************************************************************************/
 package com.likya.tlos.model;
 
-import com.likya.tlos.lite.model.TlosConnection;
-import com.likya.tlos.lite.model.TlosData;
-import com.likya.tlos.lite.model.TlosUser;
+import com.likya.tloslite.model.TlosConnection;
+import com.likya.tloslite.model.TlosData;
+import com.likya.tloslite.model.TlosUser;
 
 public interface FlexAdminConsoleMBean {
 

@@ -27,7 +27,7 @@ import com.likya.tlos.LocaleMessages;
 import com.likya.tlos.TlosServer;
 import com.likya.tlos.jobs.Job;
 import com.likya.tlos.jobs.RepetitiveExternalProgram;
-import com.likya.tlos.lite.model.DependencyInfo;
+import com.likya.tloslite.model.DependencyInfo;
 import com.likya.tlos.model.JobProperties;
 import com.likya.tlos.utils.loaders.ScenarioLoader;
 
