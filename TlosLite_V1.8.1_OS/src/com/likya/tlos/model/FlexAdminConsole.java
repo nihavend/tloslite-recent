@@ -350,6 +350,8 @@ public class FlexAdminConsole implements FlexAdminConsoleMBean {
 		TlosData tlosData = new TlosData();
 		tlosData.setTlosId(tlosConnection.getId());
 		tlosData.setTlosName(tlosConnection.getTlosName());
+		tlosData.setIpAddress(tlosConnection.getIpAddress());
+		tlosData.setPort(tlosConnection.getPort());
 
 		if (authenticate(user)) {
 			tlosData.setAuthenticated(true);
@@ -488,8 +490,6 @@ public class FlexAdminConsole implements FlexAdminConsoleMBean {
 		tlosData.setTlosJobs(flexJobList);
 		tlosData.setTlosMenuGroup(menuGroup);
 		tlosData.setTlosConnection(true);
-		tlosData.setIpAddress(TlosServer.getTlosParameters().getJmxIp());
-		tlosData.setPort(TlosServer.getTlosParameters().getJmxPort());
 
 		return tlosData;
 	}
