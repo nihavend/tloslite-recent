@@ -23,7 +23,7 @@
 	<!-- war, jar, ear files -->
 	
 	<target name="jar" depends="compile">
-		<property name="jar" value="${appname}-orj-${version.num}${buildchar}${minor.number}.jar" />
+		<property name="jar" value="${appname}-${version.num}${buildchar}${minor.number}.jar" />
 		
 		<manifest file="MANIFEST.MF">
 			<attribute name="Main-Class" value="com.likya.tlos.Tlos"/>

@@ -5,7 +5,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/TlosLite1.8.0.Libs"/>
 	<classpathentry kind="lib" path="/SharedLibs/oracle/ojdbc14.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/TlosLiteModel_V1.8.1_OS"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="dist/lib/activation.jar"/>
 	<classpathentry kind="lib" path="dist/lib/commons-codec-1.4.jar"/>
 	<classpathentry kind="lib" path="dist/lib/commons-collections-3.2.1.jar"/>
@@ -21,5 +20,6 @@
 	<classpathentry kind="lib" path="dist/lib/smtp.jar"/>
 	<classpathentry kind="lib" path="dist/lib/winp.jar"/>
 	<classpathentry kind="lib" path="/TlosLiteModel_V1.8.1_OS/tloslite-model-os-1.8.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_37"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

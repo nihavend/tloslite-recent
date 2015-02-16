@@ -45,7 +45,7 @@ scheduledDays(opsiyonel, varsayılan : 1,2,3,4,5,6,7) : Çalışma günleri, Tlo
 
 <entry key="scenarioName">Test</entry>
 <entry key="scenarioFile">senaryoBilgileri.xml</entry>
-<entry key="normalize">true</entry>
+<entry key="normalize">false</entry>
 <entry key="ispersistent">false</entry>
 <entry key="schedulerFrequency">1</entry>
 <entry key="scheduledDays">1,2,3,4,5,6,7</entry>

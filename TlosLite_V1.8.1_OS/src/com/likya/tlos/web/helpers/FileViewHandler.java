@@ -30,6 +30,8 @@ import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpExchange;
 
 public class FileViewHandler extends TlosHttpHandler {
+	
+	private final String licenseFile = "LICENSE-2.0.html";
 
 	public FileViewHandler(TlosServer tlosServer, TlosWebConsole tlosWebConsole) {
 		super(tlosServer, tlosWebConsole);
@@ -74,9 +76,9 @@ public class FileViewHandler extends TlosHttpHandler {
 					isXml = true;
 				} else if(elementText.equals("license")) { //$NON-NLS-1$
 					try {
-						response = FileUtils.readFile("lisans.htm").toString(); //$NON-NLS-1$	
+						response = FileUtils.readFile(licenseFile /*"lisans.htm"*/).toString(); //$NON-NLS-1$	
 					} catch (Exception e) {
-						response = "\"lisans.htm\"" + LocaleMessages.getString("FileViewHandler.6"); //$NON-NLS-1$ //$NON-NLS-2$
+						response = "\"" + licenseFile + "\"" + LocaleMessages.getString("FileViewHandler.6"); //$NON-NLS-1$ //$NON-NLS-2$
 					}
 					
 				} else {
